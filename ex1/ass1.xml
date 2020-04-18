@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Game_Of_Thrones SYSTEM "ex1.dtd">
+<Game_Of_Thrones>
+	<!--Stark Family-->
+	<Family>...</Family>
+	<!--Lannister Family-->
+	<Family>
+		<Member id="L1" children="L3 L4 L5" family="Lannister">
+			<FIrst_Name>Tywin</FIrst_Name>
+			<Last_Name>Lannister</Last_Name>
+		</Member>
+		<Member id="L2" children="L3 L4 L5" family="Lannister">
+			<FIrst_Name>Joanna</FIrst_Name>
+			<Last_Name>Lannister</Last_Name>
+		</Member>
+		<Member id="L3" family="Lannister">
+			<FIrst_Name>Jaime</FIrst_Name>
+			<Last_Name>Lannister</Last_Name>
+		</Member>
+		<Member id="L4" family="Lannister">
+			<FIrst_Name>Tyrion</FIrst_Name>
+			<Last_Name>Lannister</Last_Name>
+		</Member>
+		<Member id="L5" children="L7 L8 L9" family="Lannister">
+			<FIrst_Name>Cersei</FIrst_Name>
+			<Last_Name>Lannister</Last_Name>
+		</Member>
+		<Member id="L6" children="L7 L8 L9" family="Lannister">
+			<FIrst_Name>Robert</FIrst_Name>
+			<Last_Name>Baratheon</Last_Name>
+		</Member>
+		<Member id="L7" family="Lannister">
+			<FIrst_Name>Joffrey</FIrst_Name>
+			<Last_Name>Baratheon</Last_Name>
+		</Member>
+		<Member id="L8" family="Lannister">
+			<FIrst_Name>Myrcella</FIrst_Name>
+			<Last_Name>Baratheon</Last_Name>
+		</Member>
+		<Member id="L9" family="Lannister">
+			<FIrst_Name>Tommen</FIrst_Name>
+			<Last_Name>Baratheon</Last_Name>
+		</Member>
+	</Family>
+</Game_Of_Thrones>

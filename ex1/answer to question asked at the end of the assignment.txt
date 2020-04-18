@@ -1,0 +1,4 @@
+Answer:
+yes, the DTD will be changed due to new update of new household to the XML.
+at first, the gender of each family member was a REQUIRED attribute, but now it appears that we 
+can get a new family with no details on gender of either family member
