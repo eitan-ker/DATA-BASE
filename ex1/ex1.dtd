@@ -1,14 +1,14 @@
-<!ELLEMENT Game_Of_Thrones (Family*)>
-<!ELLEMENT Family (Member+)>
-<!ELLEMENT Member (First_Name, Last_Name)>
+<!ELEMENT Game_Of_Thrones (Family*)>
+<!ELEMENT Family (Member+)>
+<!ELEMENT Member (First_Name, Last_Name)>
 <!ATTLIST Member id ID #REQUIRED
-    Member gender (male | female) #REQUIRED
-    Member wife IDREF #IMPLIED
-    Member husband IDREF #IMPLIED
-    Member father IDREF #IMPLIED
-    Member mother IDREF #IMPLIED
-    Member children IDREFS #IMPLIED
-    Member bastard IDREF #IMPLIED
-    Member family IDREF #REQUIRED>
-<!ELLEMENT First_Name (#PCDATA)>
-<!ELLEMENT Last_Name (#PCDATA)>
+    gender (male | female) #REQUIRED
+    wife IDREF #IMPLIED
+    husband IDREF #IMPLIED
+    father IDREF #IMPLIED
+    mother IDREF #IMPLIED
+    children IDREFS #IMPLIED
+    bastard IDREF #IMPLIED
+    family IDREF #REQUIRED>
+<!ELEMENT First_Name (#PCDATA)>
+<!ELEMENT Last_Name (#PCDATA)>
