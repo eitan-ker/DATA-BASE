@@ -9,6 +9,6 @@
     mother IDREF #IMPLIED
     children IDREFS #IMPLIED
     bastard IDREF #IMPLIED
-    family IDREF #REQUIRED>
+    family CDATA #REQUIRED>
 <!ELEMENT First_Name (#PCDATA)>
 <!ELEMENT Last_Name (#PCDATA)>

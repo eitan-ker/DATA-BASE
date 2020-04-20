@@ -2,7 +2,7 @@
 <!DOCTYPE Game_Of_Thrones SYSTEM "ex1.dtd">
 <Game_Of_Thrones>
 	<!--Stark Family-->
-	<Family>...</Family>
+	<Family></Family>
 	<!--Lannister Family-->
 	<Family>
 		<Member id="L1" children="L3 L4 L5" family="Lannister">
