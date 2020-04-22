@@ -2,7 +2,7 @@
 <!ELEMENT Family (Member*)>
 <!ELEMENT Member (First_Name, Last_Name)>
 <!ATTLIST Member id ID #REQUIRED
-    gender (male | female) #REQUIRED
+    gender (male | female) #IMPLIED
     wife IDREF #IMPLIED
     husband IDREF #IMPLIED
     father IDREF #IMPLIED
